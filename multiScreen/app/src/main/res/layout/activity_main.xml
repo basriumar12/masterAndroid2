@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="id.co.imastudio.santri.multiscreen.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="BUTTON Halaman 1"
+            android:id="@+id/btnHal1"
+            android:paddingBottom="25dp"
+            android:background="#ff28fa" />
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="BUTTON  Halaman 2"
+            android:id="@+id/btnHal2"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:paddingTop="20dp"
+            android:background="#728fea" />
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="BUTTON Halaman 3"
+            android:paddingTop="10dp"
+            android:background="#ffcda5ff" />
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="BUTTON  Halaman 4"
+            android:id="@+id/btn4"
+            android:paddingBottom="10dp"
+            android:background="#ff88ff4b" />
+
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

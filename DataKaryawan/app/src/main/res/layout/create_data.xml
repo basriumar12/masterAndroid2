@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <EditText
+        android:id="@+id/namak"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Input Nama"
+        android:text="Input Nama"
+        android:padding="10dp"
+        android:layout_marginTop="10dp"/>
+
+    <EditText
+        android:id="@+id/jkl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Input Jenis Kelamin"
+        android:text="Input Jenis Kelamin"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"/>
+
+    <EditText
+        android:id="@+id/umur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Umur"
+        android:text="Umur"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"/>
+    <Button
+        android:id="@+id/submit"
+        android:text="submit"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    tools:context="id.co.blogbasbas.myapplication.MainActivity">
+
+    <Button
+        android:id="@+id/toast"
+        android:background="@color/blue"
+        android:text="Toast"
+        android:layout_weight="1"
+        android:onClick="toast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_weight="2"
+        android:background="@color/yellow"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="160sp"
+        android:gravity="center"
+        android:text="0"
+        android:textColor="@color/blue"
+        android:id="@+id/txt"
+         />
+
+    <Button
+        android:layout_weight="1"
+        android:onClick="count"
+        android:id="@+id/count"
+        android:text="Count"
+        android:background="@color/blue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
